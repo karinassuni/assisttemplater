@@ -1,0 +1,534 @@
+{
+    "template": "<div class=\"articulation\"><h2>Effective during the 16-17 Academic Year</h2><p> </p><h2>Lower Division Major Requirements</h2><hr><p>The primary focus for this articulation agreement is to communicate which<b> lower division courses </b>are recommended as comparable to the Liberal Studies Program. </p><hr><h2>Area One: Language</h2><hr><slot name=0></slot><p>GE Area A: A2 </p><hr><slot name=1></slot><p>GE Area C: C2 </p><hr><slot name=2></slot><p>GE Area A: A1 </p><hr><h2>Area Two: Mathematics</h2><hr><slot name=3></slot><hr><h2>Area Three: Sciences</h2><hr><slot name=4></slot><p>GE Area B: B2 </p><hr><slot name=5></slot><hr><slot name=6></slot><hr><h2>Area Four: Humanities and Social Sciences</h2><hr><slot name=7></slot><p>GE Area: AI-Government </p><hr><slot name=8></slot><p>GE Area C: C2 </p><hr><slot name=9></slot><hr><slot name=10></slot><p>Ge Area A: A3 </p><hr><h2>Area Five: Visual and Performing Arts</h2><hr><slot name=11></slot><p>GE Area C: C1 </p><hr><h2>Area Six: Health and Physical Sciences</h2><hr><p>No Lower Division Course(s) Applicable </p><hr><h2>Area Seven: Understanding Development of Child</h2><hr><slot name=12></slot><hr><h2>Area Eight: Public Education and Teaching</h2><hr><slot name=13></slot><hr><h2>Area Nine: Emphases</h2><hr><p>Contact the Liberal Studies Program at www.csub.edu/libstudies/ </p><hr></div>",
+    "courseSections": [
+        [
+            [
+                {
+                    "non-course": "1.a. Composition"
+                },
+                {
+                    "code": "ENGL 1109",
+                    "title": "Writing and Research",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "1.a. Composition"
+                },
+                {
+                    "code": "ENGL 101",
+                    "title": "Freshman Composition: Exposition",
+                    "units": 4
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "2.a. Literature\n(Select one (1) of the following courses\nas a prerequisite to upper division\nliterature coures.)"
+                },
+                {
+                    "code": "ENGL 1208",
+                    "title": "Introduction to Literature",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "ENGL 2210",
+                    "title": "American Literature Survey II",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "ENGL 2220",
+                    "title": "Ethnic-Minority American Literature",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "ENGL 2308",
+                    "title": "British Literature Survey I",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "ENGL 2408",
+                    "title": "Introduction to World Literature",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "ENGL 2410",
+                    "title": "Masterpieces Western World Literature",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "2.a. Literature\n(Select one (1) of the following\ncourses as a prerequisite to upper\ndivision literature coures.)"
+                },
+                {
+                    "code": "ENGL 102",
+                    "title": "Freshman Composition: Literature",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "ENGL 130",
+                    "title": "American Literature to 1865",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                },
+                {
+                    "blank": null
+                },
+                {
+                    "code": "ENGL 145",
+                    "title": "British Literature to 1800",
+                    "units": 3
+                },
+                {
+                    "operator": "&"
+                },
+                {
+                    "code": "ENGL 146",
+                    "title": "British Literature 1800 to Present",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                },
+                {
+                    "blank": null
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "3.a. Oral Communication"
+                },
+                {
+                    "code": "COMM 1008",
+                    "title": "Strategy Public Communication",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "3.a. Oral Communication"
+                },
+                {
+                    "code": "SPCH 101",
+                    "title": "Public Speaking",
+                    "units": 3
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "1.a. Mathematics"
+                },
+                {
+                    "code": "MATH 2120",
+                    "title": "Number Systems and Algebraic Thinking for Preservice Elementary Teachers",
+                    "units": 5
+                }
+            ],
+            [
+                {
+                    "non-course": "1.a. Mathematics"
+                },
+                {
+                    "code": "MATH 105",
+                    "title": "Mathematics for Teachers",
+                    "units": 4
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "1.a. Life Science"
+                },
+                {
+                    "code": "BIOL 1009",
+                    "title": "Perspectives in Biology",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "1.a. Life Science"
+                },
+                {
+                    "code": "BIOL 100",
+                    "title": "Introductory Biology",
+                    "units": 4
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "2.a-b. Physical Science"
+                },
+                {
+                    "code": "SCI 1100",
+                    "title": "Introduction to Chemistry",
+                    "units": 2
+                },
+                {
+                    "operator": "&"
+                },
+                {
+                    "code": "SCI 1600",
+                    "title": "Physics for Liberal Studies",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "2.a-b. Physical Science"
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                },
+                {
+                    "blank": null
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "3.a. Earth Science"
+                },
+                {
+                    "code": "SCI 2310",
+                    "title": "Introduction to Earth Science",
+                    "units": 2
+                }
+            ],
+            [
+                {
+                    "non-course": "3.a. Earth Science"
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "1.a-c. U.S. History and Government"
+                },
+                {
+                    "code": "HIST 1218",
+                    "title": "Survey of US History to 1877",
+                    "units": 3
+                },
+                {
+                    "operator": "&"
+                },
+                {
+                    "code": "PLSI 1018",
+                    "title": "American Government and Politics",
+                    "units": 3
+                },
+                {
+                    "operator": "&"
+                },
+                {
+                    "code": "HIST 2100",
+                    "title": "Introduction to CA History",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "1.a-c. U.S. History and Government"
+                },
+                {
+                    "code": "HIST 107",
+                    "title": "U S History to 1877",
+                    "units": 3
+                },
+                {
+                    "operator": "&"
+                },
+                {
+                    "code": "POLS 103",
+                    "title": "American Government",
+                    "units": 3
+                },
+                {
+                    "operator": "&"
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "2.a. World Civilization"
+                },
+                {
+                    "code": "HIST 1418",
+                    "title": "World History, Pre-History to 1500",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "2.a. World Civilization"
+                },
+                {
+                    "code": "HIST 101",
+                    "title": "World Civilizations to 1600",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "HUM 101",
+                    "title": "World Civilizations to 1600",
+                    "units": 3
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "3.a. Cultural Geography\n(SOC 3300 & PLSI 3370 are upper division\ncourses. Students who complete an\narticulated course at community college\nwill receive lower division credit\nonly.)\n"
+                }
+            ],
+            [
+                {
+                    "non-course": "3.a. Cultural Geography"
+                },
+                {
+                    "code": "GEOG 102",
+                    "title": "Human Geography",
+                    "units": 3
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "5.a. Critical Thinking"
+                },
+                {
+                    "code": "PHIL 1019",
+                    "title": "Critical Thinking",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "PHIL 2019",
+                    "title": "Ethical Reasoning",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "SCI 1409",
+                    "title": "Introduction to Scientific Thinking",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "SOC 1018",
+                    "title": "Critical Thinking and Contemporary Social Problems",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "5.a. Critical Thinking"
+                },
+                {
+                    "code": "PHIL 112",
+                    "title": "Logic",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                },
+                {
+                    "blank": null
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                },
+                {
+                    "blank": null
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "a. (Choose One)"
+                },
+                {
+                    "code": "ART 1009",
+                    "title": "Practice and Appreciation of the Visual Arts",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "MUS 1019",
+                    "title": "Understanding and Appreciation of Music",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "THTR 1109",
+                    "title": "Introduction to the Study of Theatre",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "a. (Choose One)"
+                },
+                {
+                    "code": "ART 101",
+                    "title": "Art Appreciation",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "MUS 100",
+                    "title": "Music Appreciation",
+                    "units": 3
+                },
+                {
+                    "operator": "FROM_or"
+                },
+                {
+                    "code": "DRMA 103",
+                    "title": "Introduction to Theatre",
+                    "units": 3
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "code": "CAFS 2000",
+                    "title": "Fundamentals in Developmental Theory",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "code": "ECS 100",
+                    "title": "Child Growth and Development",
+                    "units": 3
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "non-course": "1.a. Elective Courses\n(LBST 3300 is an upper division course.\nStudents who complete an articulated\ncourse at a community collect will\nreceive lower division credit\nonly.)"
+                },
+                {
+                    "code": "CMPS 1200",
+                    "title": "Basic Computer Skills",
+                    "units": 3
+                }
+            ],
+            [
+                {
+                    "non-course": "1.a. Elective Courses"
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                },
+                {
+                    "blank": null
+                },
+                {
+                    "code": "No Course Articulated",
+                    "title": "",
+                    "units": 0
+                }
+            ]
+        ]
+    ]
+}
