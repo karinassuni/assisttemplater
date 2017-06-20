@@ -77,7 +77,7 @@ def create_vuejs_template(tokens):
         elif key_of(token) == 'header':
             template_html += tag('h2', strip_asterisks(token['header']))
 
-    return f'<div class="articulation">{template_html}</div>'
+    return f'<article class="articulation">{template_html}</article>'
 
 
 def jsonify(tokens):
