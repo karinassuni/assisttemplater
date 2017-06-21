@@ -10,6 +10,12 @@ def strip_asterisks(string):
     return re.sub('\*', '', string)
 
 
+def bold_to_strong(string):
+    with_changed_tag = re.sub('<b>', '<strong>', string)
+    with_changed_tag = re.sub('</b>', '</strong>', with_changed_tag)
+    return with_changed_tag
+
+
 def is_major_header(line):
     return "====" in line and "<b>" in line
 

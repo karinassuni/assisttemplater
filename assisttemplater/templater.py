@@ -18,12 +18,26 @@ def tokenize(articulation_html_lines):
     previous_state_name = ''
 
 
-    def reset_other_states(*, current_state_name):
+    def set_current_state(state_name, value=''):
+        switch_state_to(state_name)
+        states[state_name] = value
+
+
+    def append_current_state(state_name, value):
+        switch_state_to(state_name)
+        states[state_name] += value
+
+
+    def end_previous_state():
+        tokens.append({previous_state_name: states[previous_state_name]})
+        states[previous_state_name] = ''
+
+
+    def switch_state_to(current_state_name):
         nonlocal previous_state_name
 
         if previous_state_name and current_state_name != previous_state_name:
-            tokens.append({previous_state_name: states[previous_state_name]})
-            states[previous_state_name] = ''
+            end_previous_state()
         previous_state_name = current_state_name
 
 
@@ -35,21 +49,21 @@ def tokenize(articulation_html_lines):
             continue
 
         if is_course_line(line):
-            reset_other_states(current_state_name='courses')
-            states['courses'] += strip_html(line) + '\n'
+            formatted_line = strip_html(line) + '\n'
+            append_current_state('courses', formatted_line)
 
         elif is_divider_line(line):
-            reset_other_states(current_state_name='divider')
+            set_current_state('divider')
 
         elif is_text_centered(line):
-            reset_other_states(current_state_name='header')
-            states['header'] = strip_html(line.strip()).strip()
+            formatted_line = strip_html(line.strip()).strip()
+            set_current_state('header', formatted_line)
 
         else:
-            reset_other_states(current_state_name='paragraph')
-            states['paragraph'] += line.strip() + ' '
+            formatted_line = bold_to_strong(line.strip()) + ' '
+            append_current_state('paragraph', formatted_line)
 
-    reset_other_states(current_state_name='done')
+    end_previous_state()
 
     return tokens
 
