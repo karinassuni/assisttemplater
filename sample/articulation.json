@@ -4,20 +4,22 @@
         [
             [
                 {
-                    "non-course": "1.a. Composition"
+                    "info": "1.a. Composition"
                 },
                 {
-                    "code": "ENGL 1109",
+                    "department": "ENGL",
+                    "cnum": "1109",
                     "title": "Writing and Research",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "1.a. Composition"
+                    "info": "1.a. Composition"
                 },
                 {
-                    "code": "ENGL 101",
+                    "department": "ENGL",
+                    "cnum": "101",
                     "title": "Freshman Composition: Exposition",
                     "units": 4
                 }
@@ -26,10 +28,14 @@
         [
             [
                 {
-                    "non-course": "2.a. Literature\n(Select one (1) of the following courses\nas a prerequisite to upper division\nliterature coures.)"
+                    "info": "2.a. Literature"
                 },
                 {
-                    "code": "ENGL 1208",
+                    "info": "(Select one (1) of the following courses as a prerequisite to upper division literature coures.)"
+                },
+                {
+                    "department": "ENGL",
+                    "cnum": "1208",
                     "title": "Introduction to Literature",
                     "units": 3
                 },
@@ -37,7 +43,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "ENGL 2210",
+                    "department": "ENGL",
+                    "cnum": "2210",
                     "title": "American Literature Survey II",
                     "units": 3
                 },
@@ -45,7 +52,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "ENGL 2220",
+                    "department": "ENGL",
+                    "cnum": "2220",
                     "title": "Ethnic-Minority American Literature",
                     "units": 3
                 },
@@ -53,7 +61,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "ENGL 2308",
+                    "department": "ENGL",
+                    "cnum": "2308",
                     "title": "British Literature Survey I",
                     "units": 3
                 },
@@ -61,7 +70,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "ENGL 2408",
+                    "department": "ENGL",
+                    "cnum": "2408",
                     "title": "Introduction to World Literature",
                     "units": 3
                 },
@@ -69,17 +79,22 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "ENGL 2410",
+                    "department": "ENGL",
+                    "cnum": "2410",
                     "title": "Masterpieces Western World Literature",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "2.a. Literature\n(Select one (1) of the following\ncourses as a prerequisite to upper\ndivision literature coures.)"
+                    "info": "2.a. Literature"
                 },
                 {
-                    "code": "ENGL 102",
+                    "info": "(Select one (1) of the following courses as a prerequisite to upper division literature coures.)"
+                },
+                {
+                    "department": "ENGL",
+                    "cnum": "102",
                     "title": "Freshman Composition: Literature",
                     "units": 3
                 },
@@ -87,7 +102,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "ENGL 130",
+                    "department": "ENGL",
+                    "cnum": "130",
                     "title": "American Literature to 1865",
                     "units": 3
                 },
@@ -95,15 +111,14 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 },
                 {
                     "blank": null
                 },
                 {
-                    "code": "ENGL 145",
+                    "department": "ENGL",
+                    "cnum": "145",
                     "title": "British Literature to 1800",
                     "units": 3
                 },
@@ -111,7 +126,8 @@
                     "operator": "&"
                 },
                 {
-                    "code": "ENGL 146",
+                    "department": "ENGL",
+                    "cnum": "146",
                     "title": "British Literature 1800 to Present",
                     "units": 3
                 },
@@ -119,37 +135,35 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 },
                 {
                     "blank": null
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 }
             ]
         ],
         [
             [
                 {
-                    "non-course": "3.a. Oral Communication"
+                    "info": "3.a. Oral Communication"
                 },
                 {
-                    "code": "COMM 1008",
+                    "department": "COMM",
+                    "cnum": "1008",
                     "title": "Strategy Public Communication",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "3.a. Oral Communication"
+                    "info": "3.a. Oral Communication"
                 },
                 {
-                    "code": "SPCH 101",
+                    "department": "SPCH",
+                    "cnum": "101",
                     "title": "Public Speaking",
                     "units": 3
                 }
@@ -158,20 +172,22 @@
         [
             [
                 {
-                    "non-course": "1.a. Mathematics"
+                    "info": "1.a. Mathematics"
                 },
                 {
-                    "code": "MATH 2120",
+                    "department": "MATH",
+                    "cnum": "2120",
                     "title": "Number Systems and Algebraic Thinking for Preservice Elementary Teachers",
                     "units": 5
                 }
             ],
             [
                 {
-                    "non-course": "1.a. Mathematics"
+                    "info": "1.a. Mathematics"
                 },
                 {
-                    "code": "MATH 105",
+                    "department": "MATH",
+                    "cnum": "105",
                     "title": "Mathematics for Teachers",
                     "units": 4
                 }
@@ -180,20 +196,22 @@
         [
             [
                 {
-                    "non-course": "1.a. Life Science"
+                    "info": "1.a. Life Science"
                 },
                 {
-                    "code": "BIOL 1009",
+                    "department": "BIOL",
+                    "cnum": "1009",
                     "title": "Perspectives in Biology",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "1.a. Life Science"
+                    "info": "1.a. Life Science"
                 },
                 {
-                    "code": "BIOL 100",
+                    "department": "BIOL",
+                    "cnum": "100",
                     "title": "Introductory Biology",
                     "units": 4
                 }
@@ -202,10 +220,11 @@
         [
             [
                 {
-                    "non-course": "2.a-b. Physical Science"
+                    "info": "2.a-b. Physical Science"
                 },
                 {
-                    "code": "SCI 1100",
+                    "department": "SCI",
+                    "cnum": "1100",
                     "title": "Introduction to Chemistry",
                     "units": 2
                 },
@@ -213,59 +232,56 @@
                     "operator": "&"
                 },
                 {
-                    "code": "SCI 1600",
+                    "department": "SCI",
+                    "cnum": "1600",
                     "title": "Physics for Liberal Studies",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "2.a-b. Physical Science"
+                    "info": "2.a-b. Physical Science"
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 },
                 {
                     "blank": null
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 }
             ]
         ],
         [
             [
                 {
-                    "non-course": "3.a. Earth Science"
+                    "info": "3.a. Earth Science"
                 },
                 {
-                    "code": "SCI 2310",
+                    "department": "SCI",
+                    "cnum": "2310",
                     "title": "Introduction to Earth Science",
                     "units": 2
                 }
             ],
             [
                 {
-                    "non-course": "3.a. Earth Science"
+                    "info": "3.a. Earth Science"
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 }
             ]
         ],
         [
             [
                 {
-                    "non-course": "1.a-c. U.S. History and Government"
+                    "info": "1.a-c. U.S. History and Government"
                 },
                 {
-                    "code": "HIST 1218",
+                    "department": "HIST",
+                    "cnum": "1218",
                     "title": "Survey of US History to 1877",
                     "units": 3
                 },
@@ -273,7 +289,8 @@
                     "operator": "&"
                 },
                 {
-                    "code": "PLSI 1018",
+                    "department": "PLSI",
+                    "cnum": "1018",
                     "title": "American Government and Politics",
                     "units": 3
                 },
@@ -281,17 +298,19 @@
                     "operator": "&"
                 },
                 {
-                    "code": "HIST 2100",
+                    "department": "HIST",
+                    "cnum": "2100",
                     "title": "Introduction to CA History",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "1.a-c. U.S. History and Government"
+                    "info": "1.a-c. U.S. History and Government"
                 },
                 {
-                    "code": "HIST 107",
+                    "department": "HIST",
+                    "cnum": "107",
                     "title": "U S History to 1877",
                     "units": 3
                 },
@@ -299,7 +318,8 @@
                     "operator": "&"
                 },
                 {
-                    "code": "POLS 103",
+                    "department": "POLS",
+                    "cnum": "103",
                     "title": "American Government",
                     "units": 3
                 },
@@ -307,29 +327,29 @@
                     "operator": "&"
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 }
             ]
         ],
         [
             [
                 {
-                    "non-course": "2.a. World Civilization"
+                    "info": "2.a. World Civilization"
                 },
                 {
-                    "code": "HIST 1418",
+                    "department": "HIST",
+                    "cnum": "1418",
                     "title": "World History, Pre-History to 1500",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "2.a. World Civilization"
+                    "info": "2.a. World Civilization"
                 },
                 {
-                    "code": "HIST 101",
+                    "department": "HIST",
+                    "cnum": "101",
                     "title": "World Civilizations to 1600",
                     "units": 3
                 },
@@ -337,7 +357,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "HUM 101",
+                    "department": "HUM",
+                    "cnum": "101",
                     "title": "World Civilizations to 1600",
                     "units": 3
                 }
@@ -346,15 +367,19 @@
         [
             [
                 {
-                    "non-course": "3.a. Cultural Geography\n(SOC 3300 & PLSI 3370 are upper division\ncourses. Students who complete an\narticulated course at community college\nwill receive lower division credit\nonly.)\n"
+                    "info": "3.a. Cultural Geography"
+                },
+                {
+                    "info": "(SOC 3300 & PLSI 3370 are upper division courses. Students who complete an articulated course at community college will receive lower division credit only.) "
                 }
             ],
             [
                 {
-                    "non-course": "3.a. Cultural Geography"
+                    "info": "3.a. Cultural Geography"
                 },
                 {
-                    "code": "GEOG 102",
+                    "department": "GEOG",
+                    "cnum": "102",
                     "title": "Human Geography",
                     "units": 3
                 }
@@ -363,10 +388,11 @@
         [
             [
                 {
-                    "non-course": "5.a. Critical Thinking"
+                    "info": "5.a. Critical Thinking"
                 },
                 {
-                    "code": "PHIL 1019",
+                    "department": "PHIL",
+                    "cnum": "1019",
                     "title": "Critical Thinking",
                     "units": 3
                 },
@@ -374,7 +400,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "PHIL 2019",
+                    "department": "PHIL",
+                    "cnum": "2019",
                     "title": "Ethical Reasoning",
                     "units": 3
                 },
@@ -382,7 +409,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "SCI 1409",
+                    "department": "SCI",
+                    "cnum": "1409",
                     "title": "Introduction to Scientific Thinking",
                     "units": 3
                 },
@@ -390,17 +418,19 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "SOC 1018",
+                    "department": "SOC",
+                    "cnum": "1018",
                     "title": "Critical Thinking and Contemporary Social Problems",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "5.a. Critical Thinking"
+                    "info": "5.a. Critical Thinking"
                 },
                 {
-                    "code": "PHIL 112",
+                    "department": "PHIL",
+                    "cnum": "112",
                     "title": "Logic",
                     "units": 3
                 },
@@ -408,35 +438,30 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 },
                 {
                     "blank": null
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 },
                 {
                     "blank": null
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 }
             ]
         ],
         [
             [
                 {
-                    "non-course": "a. (Choose One)"
+                    "info": "a. (Choose One)"
                 },
                 {
-                    "code": "ART 1009",
+                    "department": "ART",
+                    "cnum": "1009",
                     "title": "Practice and Appreciation of the Visual Arts",
                     "units": 3
                 },
@@ -444,7 +469,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "MUS 1019",
+                    "department": "MUS",
+                    "cnum": "1019",
                     "title": "Understanding and Appreciation of Music",
                     "units": 3
                 },
@@ -452,17 +478,19 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "THTR 1109",
+                    "department": "THTR",
+                    "cnum": "1109",
                     "title": "Introduction to the Study of Theatre",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "a. (Choose One)"
+                    "info": "a. (Choose One)"
                 },
                 {
-                    "code": "ART 101",
+                    "department": "ART",
+                    "cnum": "101",
                     "title": "Art Appreciation",
                     "units": 3
                 },
@@ -470,7 +498,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "MUS 100",
+                    "department": "MUS",
+                    "cnum": "100",
                     "title": "Music Appreciation",
                     "units": 3
                 },
@@ -478,7 +507,8 @@
                     "operator": "FROM_or"
                 },
                 {
-                    "code": "DRMA 103",
+                    "department": "DRMA",
+                    "cnum": "103",
                     "title": "Introduction to Theatre",
                     "units": 3
                 }
@@ -487,14 +517,16 @@
         [
             [
                 {
-                    "code": "CAFS 2000",
+                    "department": "CAFS",
+                    "cnum": "2000",
                     "title": "Fundamentals in Developmental Theory",
                     "units": 3
                 }
             ],
             [
                 {
-                    "code": "ECS 100",
+                    "department": "ECS",
+                    "cnum": "100",
                     "title": "Child Growth and Development",
                     "units": 3
                 }
@@ -503,30 +535,30 @@
         [
             [
                 {
-                    "non-course": "1.a. Elective Courses\n(LBST 3300 is an upper division course.\nStudents who complete an articulated\ncourse at a community collect will\nreceive lower division credit\nonly.)"
+                    "info": "1.a. Elective Courses"
                 },
                 {
-                    "code": "CMPS 1200",
+                    "info": "(LBST 3300 is an upper division course. Students who complete an articulated course at a community collect will receive lower division credit only.)"
+                },
+                {
+                    "department": "CMPS",
+                    "cnum": "1200",
                     "title": "Basic Computer Skills",
                     "units": 3
                 }
             ],
             [
                 {
-                    "non-course": "1.a. Elective Courses"
+                    "info": "1.a. Elective Courses"
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 },
                 {
                     "blank": null
                 },
                 {
-                    "code": "No Course Articulated",
-                    "title": "",
-                    "units": 0
+                    "no-articulation": null
                 }
             ]
         ]
