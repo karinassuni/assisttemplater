@@ -78,17 +78,19 @@ def create_vuejs_template(tokens):
 
 
     for token in tokens:
-        if key_of(token) == 'paragraph':
+        key = key_of(token)
+
+        if key == 'paragraph':
             template_html += tag('p', token['paragraph'])
 
-        elif key_of(token) == 'courses':
+        elif key == 'courses':
             template_html += f'<slot name={slot_number}></slot>'
             slot_number += 1
 
-        elif key_of(token) == 'divider':
+        elif key == 'divider':
             template_html += '<hr>'
 
-        elif key_of(token) == 'header':
+        elif key == 'header':
             template_html += tag('h2', strip_asterisks(token['header']))
 
     return f'<article class="articulation">{template_html}</article>'
