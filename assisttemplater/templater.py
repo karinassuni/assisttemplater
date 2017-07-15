@@ -68,38 +68,6 @@ def tokenize(articulation_html_lines):
     return tokens
 
 
-def tokens_with_combined_course_section_blocks(tokens):
-    processed_tokens = []
-    course_section_block = ''
-
-    for i, token in enumerate(tokens):
-        current_key = key_of(token)
-
-        if current_key == 'courses':
-            course_section_block += token['courses']
-
-        elif course_section_block:
-            if current_key == 'divider':
-                try:
-                    next_token = tokens[i + 1]
-                except IndexError:
-                    continue
-                next_key = key_of(next_token)
-                if next_key != 'courses':
-                    processed_tokens.append({'courses': course_section_block})
-                    course_section_block = ''
-                    processed_tokens.append(token)
-            else:
-                processed_tokens.append({'courses': course_section_block})
-                course_section_block = ''
-                processed_tokens.append(token)
-
-        else:
-            processed_tokens.append(token)
-
-    return processed_tokens
-
-
 def create_vuejs_template(tokens):
     template_html = ''
     slot_number = 0
@@ -130,14 +98,11 @@ def create_vuejs_template(tokens):
 
 def jsonify(tokens):
 
-    processed_tokens = tokens_with_combined_course_section_blocks(tokens)
-
     course_sections = [tokenize_section(token['courses'].splitlines())
-                       for token in processed_tokens
-                       if key_of(token) == 'courses']
+                       for token in tokens if key_of(token) == 'courses']
 
     dictionary = {
-        'template': create_vuejs_template(processed_tokens),
+        'template': create_vuejs_template(tokens),
         'courseSections': course_sections,
     }
 

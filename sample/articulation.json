@@ -1,5 +1,5 @@
 {
-    "template": "<article class=\"articulation\"><h2>Effective during the 16-17 Academic Year</h2><p> </p><h2>Lower Division Major Requirements</h2><hr><p>The primary focus for this articulation agreement is to communicate which<strong> lower division courses </strong>are recommended as comparable to the Liberal Studies Program. </p><hr><h2>Area One: Language</h2><hr><slot name=0></slot><p>GE Area A: A2 </p><hr><slot name=1></slot><p>GE Area C: C2 </p><hr><slot name=2></slot><p>GE Area A: A1 </p><hr><h2>Area Two: Mathematics</h2><hr><slot name=3></slot><hr><h2>Area Three: Sciences</h2><hr><slot name=4></slot><p>GE Area B: B2 </p><hr><slot name=5></slot><hr><h2>Area Four: Humanities and Social Sciences</h2><hr><slot name=6></slot><p>GE Area: AI-Government </p><hr><slot name=7></slot><p>GE Area C: C2 </p><hr><slot name=8></slot><p>Ge Area A: A3 </p><hr><h2>Area Five: Visual and Performing Arts</h2><hr><slot name=9></slot><p>GE Area C: C1 </p><hr><h2>Area Six: Health and Physical Sciences</h2><hr><p>No Lower Division Course(s) Applicable </p><hr><h2>Area Seven: Understanding Development of Child</h2><hr><slot name=10></slot><hr><h2>Area Eight: Public Education and Teaching</h2><hr><slot name=11></slot><hr><h2>Area Nine: Emphases</h2><hr><p>Contact the Liberal Studies Program at www.csub.edu/libstudies/ </p><hr></article>",
+    "template": "<article class=\"articulation\"><h2>Effective during the 16-17 Academic Year</h2><p> </p><h2>Lower Division Major Requirements</h2><hr><p>The primary focus for this articulation agreement is to communicate which<strong> lower division courses </strong>are recommended as comparable to the Liberal Studies Program. </p><hr><h2>Area One: Language</h2><hr><slot name=0></slot><p>GE Area A: A2 </p><hr><slot name=1></slot><p>GE Area C: C2 </p><hr><slot name=2></slot><p>GE Area A: A1 </p><hr><h2>Area Two: Mathematics</h2><hr><slot name=3></slot><hr><h2>Area Three: Sciences</h2><hr><slot name=4></slot><p>GE Area B: B2 </p><hr><slot name=5></slot><hr><slot name=6></slot><hr><h2>Area Four: Humanities and Social Sciences</h2><hr><slot name=7></slot><p>GE Area: AI-Government </p><hr><slot name=8></slot><p>GE Area C: C2 </p><hr><slot name=9></slot><hr><slot name=10></slot><p>Ge Area A: A3 </p><hr><h2>Area Five: Visual and Performing Arts</h2><hr><slot name=11></slot><p>GE Area C: C1 </p><hr><h2>Area Six: Health and Physical Sciences</h2><hr><p>No Lower Division Course(s) Applicable </p><hr><h2>Area Seven: Understanding Development of Child</h2><hr><slot name=12></slot><hr><h2>Area Eight: Public Education and Teaching</h2><hr><slot name=13></slot><hr><h2>Area Nine: Emphases</h2><hr><p>Contact the Liberal Studies Program at www.csub.edu/libstudies/ </p><hr></article>",
     "courseSections": [
         [
             [
@@ -236,15 +236,6 @@
                     "cnum": "1600",
                     "title": "Physics for Liberal Studies",
                     "units": 3
-                },
-                {
-                    "info": "3.a. Earth Science"
-                },
-                {
-                    "department": "SCI",
-                    "cnum": "2310",
-                    "title": "Introduction to Earth Science",
-                    "units": 2
                 }
             ],
             [
@@ -259,7 +250,22 @@
                 },
                 {
                     "no-articulation": null
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "info": "3.a. Earth Science"
                 },
+                {
+                    "department": "SCI",
+                    "cnum": "2310",
+                    "title": "Introduction to Earth Science",
+                    "units": 2
+                }
+            ],
+            [
                 {
                     "info": "3.a. Earth Science"
                 },
@@ -364,8 +370,23 @@
                     "info": "3.a. Cultural Geography"
                 },
                 {
-                    "info": "(SOC 3300 & PLSI 3370 are upper division courses. Students who complete an articulated course at community college will receive lower division credit only.)"
+                    "info": "(SOC 3300 & PLSI 3370 are upper division courses. Students who complete an articulated course at community college will receive lower division credit only.) "
+                }
+            ],
+            [
+                {
+                    "info": "3.a. Cultural Geography"
                 },
+                {
+                    "department": "GEOG",
+                    "cnum": "102",
+                    "title": "Human Geography",
+                    "units": 3
+                }
+            ]
+        ],
+        [
+            [
                 {
                     "info": "5.a. Critical Thinking"
                 },
@@ -404,15 +425,6 @@
                 }
             ],
             [
-                {
-                    "info": "3.a. Cultural Geography"
-                },
-                {
-                    "department": "GEOG",
-                    "cnum": "102",
-                    "title": "Human Geography",
-                    "units": 3
-                },
                 {
                     "info": "5.a. Critical Thinking"
                 },
