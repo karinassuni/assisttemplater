@@ -2,7 +2,7 @@ import json
 
 from assistparser import parse_section
 
-from .utils import *
+from utils import *
 
 
 __all__ = [
