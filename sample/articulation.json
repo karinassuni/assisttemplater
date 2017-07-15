@@ -31,7 +31,8 @@
                     "info": "2.a. Literature"
                 },
                 {
-                    "info": "(Select one (1) of the following courses as a prerequisite to upper division literature coures.)"
+                    "info": "(Select one (1) of the following courses as a prerequisite to upper division literature coures.)",
+                    "choose": 1
                 },
                 {
                     "department": "ENGL",
@@ -90,7 +91,8 @@
                     "info": "2.a. Literature"
                 },
                 {
-                    "info": "(Select one (1) of the following courses as a prerequisite to upper division literature coures.)"
+                    "info": "(Select one (1) of the following courses as a prerequisite to upper division literature coures.)",
+                    "choose": 1
                 },
                 {
                     "department": "ENGL",
@@ -114,9 +116,6 @@
                     "no-articulation": null
                 },
                 {
-                    "blank": null
-                },
-                {
                     "department": "ENGL",
                     "cnum": "145",
                     "title": "British Literature to 1800",
@@ -136,9 +135,6 @@
                 },
                 {
                     "no-articulation": null
-                },
-                {
-                    "blank": null
                 },
                 {
                     "no-articulation": null
@@ -244,9 +240,6 @@
                 },
                 {
                     "no-articulation": null
-                },
-                {
-                    "blank": null
                 },
                 {
                     "no-articulation": null
@@ -370,7 +363,7 @@
                     "info": "3.a. Cultural Geography"
                 },
                 {
-                    "info": "(SOC 3300 & PLSI 3370 are upper division courses. Students who complete an articulated course at community college will receive lower division credit only.) "
+                    "info": "(SOC 3300 & PLSI 3370 are upper division courses. Students who complete an articulated course at community college will receive lower division credit only.)"
                 }
             ],
             [
@@ -441,13 +434,7 @@
                     "no-articulation": null
                 },
                 {
-                    "blank": null
-                },
-                {
                     "no-articulation": null
-                },
-                {
-                    "blank": null
                 },
                 {
                     "no-articulation": null
@@ -553,9 +540,6 @@
                 },
                 {
                     "no-articulation": null
-                },
-                {
-                    "blank": null
                 },
                 {
                     "no-articulation": null

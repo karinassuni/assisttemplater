@@ -1,6 +1,6 @@
 import json
 
-from assistscraper.courses_parser import tokenize_section
+from assistparser import parse_section
 
 from .utils import *
 
@@ -98,8 +98,9 @@ def create_vuejs_template(tokens):
 
 def jsonify(tokens):
 
-    course_sections = [tokenize_section(token['courses'].splitlines())
-                       for token in tokens if key_of(token) == 'courses']
+    course_sections = [parse_section(token['courses'].splitlines())
+                       for token in tokens
+                       if key_of(token) == 'courses']
 
     dictionary = {
         'template': create_vuejs_template(tokens),
