@@ -12,7 +12,7 @@ __all__ = [
 ]
 
 
-def tokenize(articulation_html_lines):
+def tokenize(articulation_text_lines):
     tokens = []
     states = {'courses': '', 'paragraph': '', 'header': '', 'divider': ''}
     previous_state_name = ''
@@ -41,27 +41,22 @@ def tokenize(articulation_html_lines):
         previous_state_name = current_state_name
 
 
-    # Skip surrounding <pre> tag
-    articulation_html_lines = articulation_html_lines[1:-1]
-
-    for line in articulation_html_lines:
+    # Skip blanks where the enclosing <pre> tags should be
+    for line in articulation_text_lines[1:-1]:
         if is_major_header(line) or "END OF MAJOR" in line:
             continue
 
         if is_course_line(line):
-            formatted_line = strip_html(line) + '\n'
-            append_current_state('courses', formatted_line)
+            append_current_state('courses', line + '\n')
 
         elif is_divider_line(line):
             set_current_state('divider')
 
         elif is_text_centered(line):
-            formatted_line = strip_html(line.strip()).strip()
-            set_current_state('header', formatted_line)
+            set_current_state('header', line.strip())
 
         else:
-            formatted_line = bold_to_strong(line.strip()) + ' '
-            append_current_state('paragraph', formatted_line)
+            append_current_state('paragraph', line.strip() + ' ')
 
     end_previous_state()
 

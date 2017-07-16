@@ -1,7 +1,7 @@
 import os
 import urllib.request
 
-from assistscraper import articulation_url, articulation_html_from_page
+from assistscraper import articulation_url, articulation_text_from_html
 
 from assisttemplater import create_vuejs_template, jsonify, tokenize
 
@@ -16,9 +16,9 @@ with urllib.request.urlopen(url) as response:
     with open('sample/articulation.html', 'wb') as file:
         file.write(articulation_page)
 
-articulation_html_lines = articulation_html_from_page(articulation_page).split('\n')
+articulation_text_lines = articulation_text_from_html(articulation_page).split('\n')
 
-articulation_tokens = tokenize(articulation_html_lines)
+articulation_tokens = tokenize(articulation_text_lines)
 
 with open('sample/template.html', 'w') as file:
     file.write(create_vuejs_template(articulation_tokens))
